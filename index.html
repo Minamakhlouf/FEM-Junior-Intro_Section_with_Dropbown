@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+<body>
+  <main>
+    <nav>
+      <div class="logo">
+        <img src="images/logo.svg" alt="Company Logo">
+      </div>
+      <div class="links">
+        <div class="icon__close"> <img src="images/icon-close-menu.svg" alt=""></div>
+        <div class="link__container">
+          <div class="link">
+            <div class="link__clickable">Features <img class="arrow" src="images/icon-arrow-down.svg" alt=""></div>
+            <div class="links__sublinks links__sublinks--first">
+              <div class="links__sublink"><img src="images/icon-todo.svg" alt=""> Todo List</div>
+              <div class="links__sublink"><img src="images/icon-calendar.svg" alt=""> Calenders</div>
+              <div class="links__sublink"><img src="images/icon-reminders.svg" alt=""> Reminder</div>
+              <div class="links__sublink"><img src="images/icon-planning.svg" alt=""> Planning</div>
+            </div>
+          </div>
+          <div class="link">
+            <div class="link__clickable">Company <img class="arrow" src="images/icon-arrow-down.svg" alt=""></div>
+            <div class="links__sublinks">
+              <div class="links__sublink">History </div>
+              <div class="links__sublink">Our Team</div>
+              <div class="links__sublink">Blog</div>
+            </div>
+          </div>
+          <div class="link">Careers</div>
+          <div class="link">About</div>
+          <a class="link__login" href="#">Login</a>
+          <button class="link__button">Register</button>
+        </div>
+      </div>
+      <div class="burger">
+        <div class="burger__open"> <img src="images/icon-menu.svg" alt=""></div>
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="hero__pic-container">
+        <picture>
+          <source media="(min-width: 950px)" srcset="images/image-hero-desktop.png">
+          <img class="hero-image" src="images/image-hero-mobile.png" alt="">
+        </picture>
+      </div>
+      <section class="hero__text">
+        <h1>Make remote work</h1>
+        <p class="hero__paragraph">Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.</p>
+        <button class="hero__button">Learn More</button>
+        <div class="icons">
+          <div class="icons__icon"> <img src="images/client-databiz.svg" alt=""> </div>
+          <div class="icons__icon"> <img src="images/client-audiophile.svg" alt=""> </div>
+          <div class="icons__icon"> <img src="images/client-meet.svg" alt=""> </div>
+          <div class="icons__icon"> <img src="images/client-maker.svg" alt=""> </div>
+        </div>
+      </section>
+    </section>
+    <div class="overlay">
+
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
