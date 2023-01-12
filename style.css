@@ -52,6 +52,10 @@ nav {
     width: 87px; 
 }
 
+.burger {
+    cursor: pointer; 
+}
+
 .links {
     position: absolute; 
     right: 0; 
